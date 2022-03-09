@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>SmallTool.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\SmallTool_MSIPC\App.config" Link="App.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.115.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SmallTool_MSIPC">
+      <HintPath>..\SmallTool_MSIPC\bin\Debug\netcoreapp3.1\SmallTool_MSIPC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
