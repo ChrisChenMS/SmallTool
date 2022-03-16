@@ -22,27 +22,36 @@ namespace SmallTool
                 //Console.ReadLine();
 
                 var Handler = new CommonHandler();
+
+                Console.SetWindowSize(Console.LargestWindowWidth, Console.LargestWindowHeight);
                 
-                switch (Category.ToUpper())
+                if (Location.ToLower() == "c" || Location.ToLower() == "clear" || Category.ToLower() == "c" || Category.ToLower() == "clear")
                 {
-                    case "MSIPC":
-                        var Analyser = new MSIPC();
-                        var Result = new MSIPC_Response();
-                        if (Location.Length > 0)
-                        {
-                            Location = Handler.ParseLocation(Location);
-                            Console.WriteLine(Location);
-                            Result = Analyser.Analyse(Location);
-                        }
-                        else
-                        {
-                            Result.ErrMessage = "Not a valid Location";
-                        }
-                        Console.WriteLine(Result.ErrMessage);
-                        break;
-                    default:
-                        Console.WriteLine("Invalid Input!");
-                        break;
+                    Console.Clear();
+                }
+                else
+                {
+                    switch (Category.ToUpper())
+                    {
+                        case "MSIPC":
+                            var Analyser = new MSIPC();
+                            var Result = new MSIPC_Response();
+                            if (Location.Length > 0)
+                            {
+                                Location = Handler.ParseLocation(Location);
+                                Console.WriteLine(Location);
+                                Result = Analyser.Analyse(Location);
+                            }
+                            else
+                            {
+                                Result.ErrMessage = "Not a valid Location";
+                            }
+                            Console.WriteLine(Result.ErrMessage);
+                            break;
+                        default:
+                            Console.WriteLine("Invalid Input!");
+                            break;
+                    }
                 }
             }
             
