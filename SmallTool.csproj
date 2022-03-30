@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <StartupObject>SmallTool.Program</StartupObject>
+    <ApplicationIcon>icons8-application-64.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
