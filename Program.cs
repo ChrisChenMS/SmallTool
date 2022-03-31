@@ -17,8 +17,6 @@ namespace SmallTool
 
                 //for test
                 var Category = "msipc";
-                //var Location = @"C:\Users\chenych\AppData\Local\Microsoft\MSIPC";
-                //var Location = @"C:\Users\chenych\Desktop\incubation ppt pics\MSIPC0831UserDecrypt";
                 //Console.ReadLine();
 
                 var Handler = new CommonHandler();
