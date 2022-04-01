@@ -1,5 +1,5 @@
 # A SmallTool for Log Analysis 
-
+This repository is for a tool to analyze logs. It helps with the process of troubleshooting and includes different modules for different products.
 ## Features
 
 | Function                              | Current Status         | Finished                       | Link |
