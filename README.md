@@ -11,7 +11,7 @@ Simply type c/clear to clean the screen.
 
 | Function                              | Current Status         | Finished                       | Link |
 | :------------------------------------ | :--------------------- | :----------------------------- | ---- |
-| AIP/RMS Log Analyzer for MSIPC folder | :star2: Public Preview | :heavy_check_mark: Version 1.0 |      |
+| AIP/RMS Log Analyzer for MSIPC folder | :star2: Public Preview | :heavy_check_mark: Version 1.0 | [SmallTool_MSIPC](https://github.com/ChrisChenMS/SmallTool_MSIPC)     |
 | mip log analyzer                      | :calendar: In Progress |                                |      |
 | MSIP log analyzer for AIP Client      | :dart: Discussion      |                                |      |
 | RMS server log analyzer for ADRMS     | :dart: Discussion      |                                |      |
