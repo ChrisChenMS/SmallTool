@@ -1,5 +1,9 @@
 # A SmallTool for Log Analysis 
 This repository is for a tool to analyze logs. It helps with the process of troubleshooting and includes different modules for different products.
+## Requirements
+
+- Make sure [.NET Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) console application could be running in your machine.
+
 ## Getting started
 
 Run the tool by double click **SmallTool.exe** icon.
