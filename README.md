@@ -13,10 +13,9 @@ It is a Windows Console program now, inputting every module code with log files 
 Simply type c/clear to clean the screen.
 ## Features
 
-| Function                              | Current Status         | Finished                       | Link |
-| :------------------------------------ | :--------------------- | :----------------------------- | ---- |
-| AIP/RMS Log Analyzer for MSIPC folder | :star2: Public Preview | :heavy_check_mark: Version 1.00<br />:heavy_check_mark: Version 1.01 | [SmallTool_MSIPC](https://github.com/ChrisChenMS/SmallTool_MSIPC)     |
-| mip log analyzer                      | :calendar: In Progress |                                |      |
-| MSIP log analyzer for AIP Client      | :dart: Discussion      |                                |      |
-| RMS server log analyzer for ADRMS     | :dart: Discussion      |                                |      |
-
+| Function                              | Current Status         | Finished                                                     | Link                                                         |
+| :------------------------------------ | :--------------------- | :----------------------------------------------------------- | ------------------------------------------------------------ |
+| AIP/RMS Log Analyzer for MSIPC folder | :star2: Public Preview | :heavy_check_mark: Version 1.00<br />:heavy_check_mark: [Version 1.01](https://github.com/ChrisChenMS/SmallTool_MSIPC/blob/master/ChangeLog.md#101---2022-04-11)<br />:heavy_check_mark: [Version 1.02](https://github.com/ChrisChenMS/SmallTool_MSIPC/blob/master/ChangeLog.md#102---2022-04-24) | [SmallTool_MSIPC](https://github.com/ChrisChenMS/SmallTool_MSIPC) |
+| mip log analyzer                      | :calendar: In Progress |                                                              |                                                              |
+| MSIP log analyzer for AIP Client      | :dart: Discussion      |                                                              |                                                              |
+| RMS server log analyzer for ADRMS     | :dart: Discussion      |                                                              |                                                              |
