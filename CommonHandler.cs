@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Text.RegularExpressions;
 
 namespace SmallTool
 {
@@ -33,6 +34,21 @@ namespace SmallTool
         public void Logger()
         { 
             
+        }
+
+        public bool isLocation(string input)
+        {
+            bool isLocation = false;
+
+            Regex FolderRegex = new Regex(@"\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*", RegexOptions.IgnoreCase);
+            MatchCollection FolderMatches = FolderRegex.Matches(input);
+
+            if (FolderMatches.Count > 0)
+            {
+                isLocation = true;
+            }
+
+            return isLocation;
         }
 
     }
