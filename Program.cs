@@ -1,6 +1,8 @@
 ﻿using System;
 using SmallTool_MSIPC;
 using SmallTool_MSIPC.Models;
+using SmallTool_MIP;
+using SmallTool_MIP.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Configuration;
@@ -82,6 +84,20 @@ namespace SmallTool
                             }
                             Console.WriteLine(Result.ErrMessage);
                             break;
+                        case "MIP":
+                            var mipAnalyser = new MIP();
+                            var mipResult = new MIP_Response();
+                            if (Location.Length > 0)
+                            {
+                                mipResult = mipAnalyser.Analyse(Location);
+                            }
+                            else
+                            {
+                                mipResult.ErrMessage = "Not a valid Location";
+                            }
+                            Console.WriteLine(mipResult.ErrMessage);
+                            break;
+
                         default:
                             Console.WriteLine("Invalid Input!");
                             break;
