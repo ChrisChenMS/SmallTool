@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallTool", "SmallTool.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallTool_MSIPC", "..\SmallTool_MSIPC\SmallTool_MSIPC.csproj", "{BE651F2E-3DC9-4BA3-8568-182A67B632D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallTool_MIP", "..\SmallTool_MIP\SmallTool_MIP\SmallTool_MIP.csproj", "{8D68DF54-DE1C-4274-AADB-09F10A76472E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallTool_MIP", "..\SmallTool_MIP\SmallTool_MIP.csproj", "{48637979-1921-47CB-8951-E5539BB6FFF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{BE651F2E-3DC9-4BA3-8568-182A67B632D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE651F2E-3DC9-4BA3-8568-182A67B632D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE651F2E-3DC9-4BA3-8568-182A67B632D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D68DF54-DE1C-4274-AADB-09F10A76472E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D68DF54-DE1C-4274-AADB-09F10A76472E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D68DF54-DE1C-4274-AADB-09F10A76472E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D68DF54-DE1C-4274-AADB-09F10A76472E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48637979-1921-47CB-8951-E5539BB6FFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48637979-1921-47CB-8951-E5539BB6FFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48637979-1921-47CB-8951-E5539BB6FFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48637979-1921-47CB-8951-E5539BB6FFF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
