@@ -42,7 +42,7 @@ namespace SmallTool
                 else if (Location.ToLower() == "p" || Location.ToLower() == "para")
                 {
                     para.Print();
-                g
+                }
                 else if (Location.ToLower() == "category")
                 {
                     Console.WriteLine("Change category to");
