@@ -49,7 +49,7 @@ namespace SmallTool
                 {
                     Console.WriteLine("Change category to");
                     string temp = Console.ReadLine();
-                    if (SupportedCategory.Exists(x => x == temp))
+                    if (SupportedCategory.Exists(x => x == temp.ToUpper()))
                     {
                         para.Category = temp.ToUpper();
                     }
