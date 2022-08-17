@@ -19,13 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SmallTool_MIP\SmallTool_MIP.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="SmallTool_MSIPC">
       <HintPath>..\SmallTool_MSIPC\bin\Debug\netcoreapp3.1\SmallTool_MSIPC.dll</HintPath>
     </Reference>
+	<Reference Include="SmallTool_MIP">
+		<HintPath>..\SmallTool_MIP\bin\Debug\netcoreapp3.1\SmallTool_MIP.dll</HintPath>
+	</Reference>
   </ItemGroup>
 
 </Project>
