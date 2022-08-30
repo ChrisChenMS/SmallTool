@@ -26,7 +26,7 @@ namespace SmallTool
                 }
                 FirstOpen = false;
                 //var Category = Console.ReadLine();
-                Console.WriteLine("Please input location of the logs");
+                Console.WriteLine("Please input location of the logs. Type 'help' to get the menu.");
                 var Location = Console.ReadLine();
 
                 //for test
